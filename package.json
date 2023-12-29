@@ -1,5 +1,5 @@
 {
-  "name": "pkg-placeholder",
+  "name": "tapable-starter",
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@8.12.1",
@@ -7,12 +7,10 @@
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
   "license": "MIT",
   "funding": "https://github.com/sponsors/antfu",
-  "homepage": "https://github.com/antfu/pkg-placeholder#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antfu/pkg-placeholder.git"
+    "url": "https://github.com/chengwen-zheng/tapable-starter.git"
   },
-  "bugs": "https://github.com/antfu/pkg-placeholder/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
@@ -47,11 +45,15 @@
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
   },
+  "dependencies": {
+    "tapable": "^2.2.1"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.0",
     "@antfu/ni": "^0.21.12",
     "@antfu/utils": "^0.7.7",
     "@types/node": "^20.10.5",
+    "@types/tapable": "^2.2.7",
     "bumpp": "^9.2.1",
     "eslint": "^8.56.0",
     "esno": "^4.0.0",
